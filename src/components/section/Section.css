@@ -1,0 +1,39 @@
+.main-content {
+    padding: 100px 0;
+    background-color: #0b0f19;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    margin: 0 0 20px 0;
+    color: #ffffff;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #9ca3af;
+    margin: 0 0 40px 0;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #00d2ff;
+    color: #0b0f19;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter', system-ui, sans-serif;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #00b4db;
+    transform: translateY(-1px);
+}
