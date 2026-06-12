@@ -9,7 +9,6 @@ export default function Header() {
                 <nav className="nav">
                     <div className="logo">
                         <span className="logo-name">Durbek</span>
-                        <span className="logo-tech">/ Node.js</span>
                     </div>
                     <div className="nav-links">
                         <NavLink to="/">About</NavLink>
