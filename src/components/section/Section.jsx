@@ -7,7 +7,7 @@ export default function Section() {
             <div className="container">
                 <h1 className="hero-title">Full-Stack Developer</h1>
                 <p className="hero-subtitle">
-                    Deep diving into asynchronous JavaScript, building server-side logic with Node.js, and structuring data using MongoDB.
+                    Hi, my name is Durbek and I am a Full-Stack Developer. I build web applications from scratch, focusing on efficient backend logic and responsive user interfaces
                 </p>
                 <a href="#contacts" className="btn">Contact Me</a>
             </div>
