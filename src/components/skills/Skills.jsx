@@ -9,6 +9,8 @@ import img6 from "./javascript-logo-javascript-icon-transparent-free-png.webp"
 import img7 from "./png-transparent-html-html-logo-html-5-html-five-logo-html-5-logo-programming-langugae-3d-icon-thumbnail-removebg-preview.png"
 import img8 from "./react-removebg-preview.png"
 import img9 from "./scss-removebg-preview.png"
+import img10 from "./axios.png"
+import img11 from "./redux-toolkit-removebg-preview.png"
 
 const techs = [
     {
@@ -46,6 +48,14 @@ const techs = [
     {
         img: img9,
         title: "scss"
+    },
+    {
+        img: img10,
+        title: "axios"
+    },
+    {
+        img: img11,
+        title: "redux toolkit"
     }
 ];
 
