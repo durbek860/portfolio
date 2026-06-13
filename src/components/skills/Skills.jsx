@@ -1,21 +1,51 @@
 import React from 'react';
 import './Skills.css'
+import img1 from "./9632880.webp"
+import img2 from "./css.png"
+import img3 from "./Git_icon.svg.png"
+import img4 from "./images (1).png"
+import img5 from "./images.png"
+import img6 from "./javascript-logo-javascript-icon-transparent-free-png.webp"
+import img7 from "./png-transparent-html-html-logo-html-5-html-five-logo-html-5-logo-programming-langugae-3d-icon-thumbnail.png"
+import img8 from "./react-icon-blue-hexagon-vector-36587857.avif"
+import img9 from "./scss.png"
 
-const skillCategories = [
+const techs = [
     {
-        id: 1,
-        title: "Core & Backend",
-        items: ["JavaScript (ES6+)", "Node.js", "Express.js", "REST APIs", "Asynchronous Programming"]
+        img: img1,
+        title: "redux"
     },
     {
-        id: 2,
-        title: "Database Management",
-        items: ["MongoDB", "Mongoose ODM", "CRUD Operations", "Aggregation Pipelines", "Database Security"]
+        img: img2,
+        title: "css"
     },
     {
-        id: 3,
-        title: "Development Tools",
-        items: ["Git / GitHub", "Postman (API Testing)", "npm", "Vite", "Environment Variables"]
+        img: img7,
+        title: "html"
+    },
+    {
+        img: img6,
+        title: "JavaScript"
+    },
+    {
+        img: img3,
+        title: "git"
+    },
+    {
+        img: img4,
+        title: "MongoDB"
+    },
+    {
+        img: img5,
+        title: "node"
+    },
+    {
+        img: img8,
+        title: "react"
+    },
+    {
+        img: img9,
+        title: "scss"
     }
 ];
 
@@ -26,16 +56,14 @@ export default function Skills() {
                 <h2 className="section-title">Skills & Technologies</h2>
 
                 <div className="skills-grid">
-                    {skillCategories.map((category) => (
-                        <div key={category.id} className="skills-category-card">
-                            <h3 className="category-title">{category.title}</h3>
-                            <ul className="skills-list">
-                                {category.items.map((skill, index) => (
-                                    <li key={index} className="skill-item">{skill}</li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))}
+                    {
+                        techs.map((item,index) => {
+                            <div key={index} className="tech">
+                                <img src={item.img} alt={item.title} />
+                                <h4>{item.title}</h4>
+                            </div>
+                        })
+                    }
                 </div>
             </div>
         </section>
