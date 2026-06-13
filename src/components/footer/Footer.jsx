@@ -24,10 +24,6 @@ export default function Contact() {
                         </a>
                     ))}
                 </div>
-
-                <div className="footer-bottom">
-                    <p>© {new Date().getFullYear()} Durbek | Powered by Node.js & React</p>
-                </div>
             </div>
         </footer>
     );

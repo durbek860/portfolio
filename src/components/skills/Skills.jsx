@@ -1,14 +1,14 @@
 import React from 'react';
 import './Skills.css'
-import img1 from "./9632880.webp"
-import img2 from "./css.png"
+import img1 from "./9632880-removebg-preview.png"
+import img2 from "./css-removebg-preview.png"
 import img3 from "./Git_icon.svg.png"
-import img4 from "./images (1).png"
-import img5 from "./images.png"
+import img4 from "./images__1-removebg-preview.png"
+import img5 from "./images-removebg-preview.png"
 import img6 from "./javascript-logo-javascript-icon-transparent-free-png.webp"
-import img7 from "./png-transparent-html-html-logo-html-5-html-five-logo-html-5-logo-programming-langugae-3d-icon-thumbnail.png"
-import img8 from "./react-icon-blue-hexagon-vector-36587857.avif"
-import img9 from "./scss.png"
+import img7 from "./png-transparent-html-html-logo-html-5-html-five-logo-html-5-logo-programming-langugae-3d-icon-thumbnail-removebg-preview.png"
+import img8 from "./react-removebg-preview.png"
+import img9 from "./scss-removebg-preview.png"
 
 const techs = [
     {
@@ -37,7 +37,7 @@ const techs = [
     },
     {
         img: img5,
-        title: "node"
+        title: "node.js"
     },
     {
         img: img8,
@@ -57,12 +57,12 @@ export default function Skills() {
 
                 <div className="skills-grid">
                     {
-                        techs.map((item,index) => {
+                        techs.map((item,index) => (
                             <div key={index} className="tech">
-                                <img src={item.img} alt={item.title} />
+                                <img src={item.img} alt={item.title} title={item.title} />
                                 <h4>{item.title}</h4>
                             </div>
-                        })
+                        ))
                     }
                 </div>
             </div>
